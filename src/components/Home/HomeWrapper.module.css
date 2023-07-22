@@ -1,0 +1,31 @@
+header,
+footer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+  background-color: #c8c8c8;
+}
+.searchInput {
+  padding: 4px;
+  border: none;
+  outline: none;
+  width: 60%;
+}
+.headerRight {
+  display: flex;
+  margin-left: 4rem;
+}
+
+.logo {
+  width: 8rem;
+}
+
+@media (max-width: 580px) {
+  .searchInput {
+    display: none;
+  }
+  .headerRight {
+    display: flex;
+    margin-left: 2rem;
+  }
+}

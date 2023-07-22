@@ -1,0 +1,17 @@
+.itemContainer {
+    font-size: 1rem;
+}
+.item {
+    border: 1px solid black;
+    width: 50%;
+    padding: 1rem 2rem;
+}
+
+.itemSeen {
+    background: #d0c2c2;
+    color: black;
+    font-weight: 800;
+    border: 1px solid black;
+    width: 50%;
+    padding: 1rem 2rem;
+}
